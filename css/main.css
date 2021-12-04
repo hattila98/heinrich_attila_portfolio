@@ -1,0 +1,134 @@
+body{
+	font-family: 'Epilogue', sans-serif;
+	background-image: linear-gradient(to bottom, grey, white);
+	background-attachment: fixed;
+	line-height: 2rem;
+	padding: 0rem 2rem 1.5rem 2rem;
+	text-align: justify;
+}
+
+*, *::before, *::after{
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	padding: 0rem 2rem 1.5rem 2rem;
+
+}
+h1, h2, h3, h4, h5, h6{
+	text-align: left;
+	padding: 2rem 2rem 1rem 2rem;
+}
+ul, ol{
+	padding: 0rem 2rem 1.5rem 4rem;
+	text-align: left;
+
+}
+hr{
+	margin: 0rem 2rem;
+}
+table, tr, td, th{
+	min-width: 4rem;
+	text-align: center;
+	margin: 1rem auto 2rem auto;
+	padding: 2px 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+.oldaltorzs{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 7px 6px 15px 0px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 7px 6px 15px 0px rgba(0,0,0,0);
+}
+.menusor{
+	background-color: #545454;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+.gomb{
+	display: inline-block;
+	border: 2px dashed; black;
+	margin: .5rem;
+	padding: 1rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
+	background-color: dimgray;
+	min-width: max-content;
+
+	-webkit-box-shadow: 7px 6px 15px 0px rgba(0,0,0,0.67); 
+	box-shadow: 7px 6px 15px 0px rgba(0,0,0,0.67);
+	transition: .5s;
+}
+.gomb:hover{
+	background-color: white;
+	color: dimgray;
+	cursor: pointer;
+}
+.jobbra{
+	float: right;
+}
+.flex1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.nyujtas{
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	text-align: right;
+}
+.aktiv{
+	background-color: #04AA6D;
+}
+.idezet{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	line-height: 3rem;
+}
+.lablec{
+	background-color: #04AA6D;
+	color: white;
+	padding: 2rem 2rem 2rem 2rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+.kartya{
+	vertical-align: top;
+	background-color: #04AA6D;
+	border-radius: 2px solid black;
+	border-radius: 2rem;
+	padding: 1rem;
+	margin: rem;
+	text-align: center;
+	display: inline-block;
+}
+.kartya img{
+	max-height: 20rem;
+	max-width: 20rem;
+	display: block;
+	margin: 1rem auto;
+}
+.koncepcio{
+	display: block;
+	max-width: 50%;
+	max-height: 40rem;
+	margin: auto;
+}
+.grid1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+	grid-gap: 0.5rem;
+	margin: 1rem;
+}
+span{
+	font-weight: bold;
+}
